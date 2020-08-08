@@ -13,6 +13,9 @@ import (
 	"github.com/gorilla/mux"
 
 	"github.com/joho/godotenv"
+
+	// Postgres golang driver
+	_ "github.com/lib/pq"
 )
 
 type response struct {
